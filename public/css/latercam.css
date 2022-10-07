@@ -1,0 +1,519 @@
+@font-face {
+    font-family: "Chicago";
+    src: url(/fonts/Chicago.woff?4b7dabec2befe7b7f54aec27e0fdf05e)
+        format("woff");
+}
+
+.grid {
+    max-width: 97%;
+    margin: 0 auto;
+}
+
+img.lazy {
+    border: 20px solid white;
+    background-image: url("/img/lazyicon_later.gif");
+}
+
+#thedatepicker {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.invite_box {
+    border: white solid 1px;
+    max-width: 450px;
+    padding-top: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.wedding_booth {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 500px;
+}
+
+.wedding_cta {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background-color: #ff00ff;
+}
+
+.privacy h1,
+.privacy h2 {
+    color: black !important;
+}
+
+.question {
+    margin-top: 40px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price_col {
+    background: #4943b1;
+}
+
+.wedding_snap {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.answer {
+    margin-bottom: 20px;
+    color: #e5e5e5;
+}
+
+.later_admin {
+    margin: 20px;
+    color: white !important;
+    font-size: 22px !important;
+}
+
+.footer {
+    margin-top: 150px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.photos_price {
+    width: 100px;
+}
+
+.date {
+    color: #ccc;
+}
+
+#comments {
+    height: 100px !important;
+}
+
+.youtube {
+    width: 560px;
+    height: 315px;
+}
+
+.later_logo {
+    width: 250px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "ChicagoFLF Regular", monospace;
+    color: white !important;
+}
+
+.sticky-purple {
+    background: #6b62ff;
+    height: 70px;
+}
+
+.pixel_header {
+    height: 35px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.pixel_header_primary {
+    margin-bottom: 15px;
+}
+
+.pixel_header_double {
+    height: 70px;
+}
+
+.pixel_subheader {
+    height: 22px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.pixel_subheader_double {
+    height: 44px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.laterform {
+    margin-bottom: 70px;
+}
+
+.later {
+    background-color: #6b62ff !important;
+    font-family: "Chicago", monospace;
+    font-size: 20px;
+}
+
+.laterbox {
+    background-color: #6b62ff !important;
+    color: white;
+}
+
+.laterbox .form-group p,
+.form_header {
+    color: white;
+}
+
+.laterboxfixed {
+    margin-top: 200px;
+}
+
+.btn-red {
+    background: #ff00ff !important;
+}
+
+.btn-later,
+#submitButton {
+    border-radius: 0px;
+    color: white;
+    background-color: #fe07fc;
+    font-family: Arial, sans-serif !important;
+    font-weight: bold;
+    font-size: 24px;
+    width: 400px;
+    box-shadow: 10px 10px #9d98e7;
+    border: black 1px solid;
+    margin-left: 1px;
+    text-decoration: none !important;
+    max-width: 90%;
+    font-size: 18px;
+}
+
+.later a,
+.later a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.later a:hover {
+    text-decoration: underline;
+}
+
+.thanks {
+    width: 250px;
+}
+
+.postcard {
+    border: 1px solid black;
+    margin-bottom: 35px;
+}
+
+.screenshot {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    border: 1px solid black;
+}
+
+table,
+td,
+th {
+    border: 1px solid white;
+}
+
+.small_button {
+    width: 200px !important;
+    font-size: 14px !important;
+    box-shadow: 5px 5px #9d98e7 !important;
+    margin-top: 10px;
+}
+
+.fixed-top-nav {
+    background-color: #6b62ff !important;
+    height: 100px;
+}
+
+.phone {
+    margin: 0 auto;
+    color: white;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.fixed_logo {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.laterinput {
+    height: 50px;
+    font-family: "Chicago", monospace;
+    width: 400px;
+    padding: 10px;
+    border: black 1px solid;
+}
+
+#comments {
+    height: 100px !important;
+}
+
+.youtube {
+    width: 560px;
+    height: 315px;
+}
+
+.later h1,
+h2,
+h3 {
+    font-family: "ChicagoFLF Regular", monospace;
+    color: white !important;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order_summary {
+    color: #d9d9d9 !important;
+}
+
+.datepicker {
+    background: white;
+    color: black;
+    font-size: 16px;
+}
+
+.datepicker-inline {
+    width: 300px !important;
+}
+
+td.hover {
+    background-color: black !important;
+}
+
+td.active {
+    background-color: black !important;
+    color: white;
+    background-image: none !important;
+}
+
+.pixel_subheader {
+    height: 22px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.pixel_subheader_double {
+    height: 44px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.later h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.weddings h1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.later h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.laterform {
+    margin-bottom: 70px;
+}
+
+.later a,
+.later a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.later a:hover {
+    text-decoration: underline;
+}
+
+.thanks {
+    width: 250px;
+}
+
+.postcard {
+    border: 1px solid black;
+    margin-bottom: 35px;
+}
+
+.screenshot {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 978px) {
+    .phone {
+        margin: 0 auto;
+        margin-left: 12px;
+    }
+    .fixed-top-nav {
+        height: 100px;
+    }
+    .question {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .laterboxfixed {
+        margin-top: 100px;
+    }
+    .fixed_logo {
+        width: 150px;
+    }
+    .wp-block-table table,
+    .wp-block-table thead,
+    .wp-block-table tbody,
+    .wp-block-table th,
+    .wp-block-table td,
+    .wp-block-table tr {
+        display: block;
+    }
+    .wp-block-table tr:first-child {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .wp-block-table tr {
+        border: 1px solid #ccc;
+        margin-bottom: 50px;
+    }
+    .wp-block-table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 150px;
+        margin-left: 0px;
+        padding-top: 12px;
+    }
+    .plan_name {
+        font-size: 22px;
+    }
+    .wp-block-table td:before {
+        position: absolute;
+        top: 12px;
+        left: 6px;
+        width: 50px;
+        padding-right: 10px;
+        white-space: nowrap;
+        margin-left: 0px;
+        font-weight: 600;
+    }
+    .wp-block-table td:nth-of-type(1):before {
+        content: "Plan";
+    }
+    .wp-block-table td:nth-of-type(2):before {
+        content: "Price";
+    }
+    .wp-block-table td:nth-of-type(4):before {
+        content: "Disposables";
+    }
+    .wp-block-table td:nth-of-type(5):before {
+        content: "Total cost";
+    }
+    .wp-block-table td:nth-of-type(6):before {
+        content: "Savings";
+    }
+    .entry-content {
+        margin-right: 0px;
+    }
+    body {
+        margin-top: 0px;
+    }
+    .later {
+        font-size: 16px;
+    }
+    .screenshot {
+        width: 90%;
+    }
+    .youtube {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .pixel_subheader {
+        height: 14px;
+    }
+    .pixel_subheader_double {
+        height: 28px;
+    }
+    .later_logo {
+        width: 50%;
+    }
+    .small_button {
+        width: 150px !important;
+        font-size: 11px !important;
+        box-shadow: 3px 3px #9d98e7 !important;
+        margin-top: 10px;
+    }
+    .laterinput,
+    .btn-later-submit {
+        width: 90% !important;
+    }
+    .later h1 {
+        font-size: 25px;
+    }
+    .later h2 {
+        margin-top: 20px;
+    }
+    .pixel_header {
+        height: 23px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .pixel_header_double {
+        height: 50px;
+    }
+    .wedding_booth {
+        width: 100%;
+    }
+    .wedding_snap {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    body {
+        margin-top: 0px;
+    }
+    .screenshot {
+        width: 90%;
+    }
+    .youtube {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .pixel_subheader {
+        height: 14px;
+    }
+    .pixel_subheader_double {
+        height: 28px;
+    }
+    .laterinput,
+    .btn-later {
+        width: 90%;
+    }
+    .later {
+        font-size: 16px;
+    }
+    .later h1 {
+        font-size: 25px;
+    }
+    .later h2 {
+        margin-top: 20px;
+    }
+}
