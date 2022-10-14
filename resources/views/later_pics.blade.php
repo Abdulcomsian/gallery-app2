@@ -83,11 +83,19 @@
             .box1, .box2, .box3{
               width: 33%;
             }
+
+            .galleryImage {
+                padding: 20px 18px;width:100%; margin-bottom: 12px;
+            }
            
             @media (max-width: 991px){
               .box1, .box2, .box3{
                 width: 100%;
               }
+
+              .galleryImage {
+                padding: 0;width:100%; margin-bottom: 12px;
+            }
                .swiper-slide{
                 display: flex;
                 justify-content: center;
@@ -301,14 +309,14 @@ olark.identify('6935-124-10-4396');</script>
                             <div class="box1">
                                
                                 @for($i=0;$i<=count($photos);$i=$i+3)
-                                     <img src="{{$photos[$i]->web ?? ''}}" id="{{$i}}" style="    padding: 20px 18px;width:100%; margin-bottom: 12px"/>
+                                     <img src="{{$photos[$i]->web ?? ''}}" id="{{$i}}" class="galleryImage"/>
                                    
                                   @endfor
                           </div>
 
                              <div class="box2">
                                  @for($i=1;$i<=count($photos);$i=$i+3)
-                                     <img src="{{$photos[$i]->web}}" id="{{$i}}" style="    padding: 20px 18px;width:100%; margin-bottom: 12px"/>
+                                     <img src="{{$photos[$i]->web}}" id="{{$i}}" class="galleryImage"/>
                                  
                                   
                                  @endfor
@@ -316,7 +324,7 @@ olark.identify('6935-124-10-4396');</script>
 
                              <div class="box3">
                                  @for($i=2;$i<=count($photos);$i=$i+3)
-                                     <img src="{{$photos[$i]->web}}" id="{{$i}}" style="    padding: 20px 18px;width:100%; margin-bottom: 12px"/>                                  
+                                     <img src="{{$photos[$i]->web}}" id="{{$i}}" class="galleryImage"/>                                  
                                   @endfor
                           </div>
 
