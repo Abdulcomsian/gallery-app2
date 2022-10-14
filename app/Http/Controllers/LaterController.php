@@ -18,14 +18,14 @@ class LaterController extends Controller
         return view('later_pics', compact('photos'));
     }
 
-    public function pics2 ($Code)
-    {
-       $photos = json_decode( Storage::disk('local')->get($Code . '.json') );
+    // public function pics2 ($Code)
+    // {
+    //    $photos = json_decode( Storage::disk('local')->get($Code . '.json') );
        
-        #echo var_dump ($photos); exit;
+    //     #echo var_dump ($photos); exit;
 
-        return view('later_pic2', compact('photos'));
-    }
+    //     return view('later_pic2', compact('photos'));
+    // }
    
 
 }
