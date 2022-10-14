@@ -87,8 +87,33 @@
             .galleryImage {
                 padding: 20px 18px;width:100%; margin-bottom: 12px;
             }
-           
+
+            /* @media (max-width: 991px) and (min-width: 700px) {
+                .box1, .box2, .box3{
+                    width: 
+                }
+                .box1 img, .box2 img, .box3 img{
+                  width: 100%;
+                }
+            } */
+
             @media (max-width: 991px){
+              .galleryImage {
+                padding: 0 4px;width:100%; margin-bottom: 12px;
+            }
+              .swiper-slide img{
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            }
+             .swiper-slide{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               }
+            }
+           
+            @media (max-width: 768px){
               .box1, .box2, .box3{
                 width: 100%;
               }
@@ -96,16 +121,8 @@
               .galleryImage {
                 padding: 0;width:100%; margin-bottom: 12px;
             }
-               .swiper-slide{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-               }
-               .swiper-slide img{
-              width: 100%;
-              height: auto;
-              object-fit: cover;
-            }
+              
+             
             }
           </style>
 
@@ -305,7 +322,7 @@ olark.identify('6935-124-10-4396');</script>
 
                
 
-                <div class="d-flex flex-column flex-lg-row justify-content-between px-lg-5 px-3" style="background:#fff;padding-top:55px;">
+                <div class="d-flex flex-column flex-md-row justify-content-between px-lg-5 px-3" style="background:#fff;padding-top:55px;">
                             <div class="box1">
                                
                                 @for($i=0;$i<=count($photos);$i=$i+3)
@@ -329,6 +346,7 @@ olark.identify('6935-124-10-4396');</script>
                           </div>
 
                   </div>
+                  
 
                    <!-- <div class="d-flex flex-wrap px-5">
                           
